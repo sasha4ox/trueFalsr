@@ -1,0 +1,59 @@
+.activeTab {
+  border-top: 2px solid #2977c9 !important;
+}
+
+.nav {
+  width: 80%;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 1550px) {
+  .nav {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .nav {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .nav {
+    flex-direction: column;
+  }
+  .activeTab {
+    color: white !important;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3690f0+1,1e69de+27,1e69de+31,54a3ee+50,6db3f2+82,6db3f2+82 */
+    background: #3690f0; /* Old browsers */
+    background: -moz-linear-gradient(
+      -45deg,
+      #3690f0 1%,
+      #1e69de 27%,
+      #1e69de 31%,
+      #54a3ee 50%,
+      #6db3f2 82%,
+      #6db3f2 82%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      -45deg,
+      #3690f0 1%,
+      #1e69de 27%,
+      #1e69de 31%,
+      #54a3ee 50%,
+      #6db3f2 82%,
+      #6db3f2 82%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      135deg,
+      #3690f0 1%,
+      #1e69de 27%,
+      #1e69de 31%,
+      #54a3ee 50%,
+      #6db3f2 82%,
+      #6db3f2 82%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3690f0', endColorstr='#6db3f2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+}

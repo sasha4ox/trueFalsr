@@ -1,0 +1,17 @@
+.allLanguagesAnswersStatistic {
+  display: table;
+  width: 100%;
+}
+
+.allLanguagesAnswersStatistic p {
+  display: flex;
+  font-size: 3vh;
+  justify-content: center;
+}
+
+.allLanguagesAnswersStatistic .allLanguagesAnswersStatisticItems{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3vh;
+}

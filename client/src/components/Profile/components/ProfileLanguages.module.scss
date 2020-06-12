@@ -1,0 +1,34 @@
+.form {
+  margin: 25px auto;
+  width: 30%;
+  min-width: 320px;
+}
+.selectLanguageText {
+  text-align: center;
+  margin: 15px;
+}
+.wrapperButtons {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  display: block;
+  background: #2977c9;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  &:hover {
+    background: green;
+  }
+  &:disabled {
+    background: grey;
+  }
+}
+@media screen and (max-width: 435px) {
+  .wrapperButtons {
+    flex-direction: column-reverse;
+    .button {
+      margin: 10px;
+    }
+  }
+}

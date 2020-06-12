@@ -1,0 +1,25 @@
+.wrapper_timer {
+  position: relative;
+  height: 50px;
+  max-width: 700px;
+  margin: 10px auto;
+}
+.timer_seconds {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.question_language {
+  color: gray;
+  position: absolute;
+  top: 50%;
+  transform: translate(15%, -50%);
+}
+@media screen and (max-height: 450px) {
+  .wrapper_timer {
+    position: relative;
+    height: 40px;
+    margin: 2px auto;
+  }
+}

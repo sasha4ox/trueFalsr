@@ -1,0 +1,54 @@
+.form {
+  margin: 25px auto;
+  width: 30%;
+  min-width: 320px;
+}
+.selectLanguageText {
+  text-align: center;
+  margin: 15px;
+}
+.wrapperButtons {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and(max-width: 632px) {
+  .wrapperButtons {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    button {
+      margin: 5px;
+    }
+    .buttonSkip,
+    .buttonSave {
+      width: auto;
+    }
+  }
+}
+.buttonSkip,
+.buttonSave {
+  display: block;
+  background: #2977c9;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 350px;
+  &:hover {
+    background: green;
+  }
+  &:disabled {
+    background: grey;
+  }
+}
+.buttonSkip {
+  background: grey;
+}
+@media screen and (max-width: 435px) {
+  .wrapperButtons {
+    flex-direction: column-reverse;
+    .button {
+      margin: 10px;
+      min-width: auto;
+    }
+  }
+}

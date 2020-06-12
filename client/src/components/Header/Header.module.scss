@@ -1,0 +1,73 @@
+.infoWrapper {
+  color: #fff;
+}
+.wrapperLogo {
+  display: flex;
+  align-items: center;
+}
+.home {
+  font-size: 2em;
+}
+.bgPrimary {
+  background: #2977c9 !important;
+}
+.logo img {
+  width: 50px;
+}
+header a {
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}
+.elifechLink {
+  margin-left: 15px;
+}
+.elifechLogo {
+  width: 25px;
+}
+
+.descriptionContainerDiv {
+  display: flex;
+  align-items: center;
+}
+.descriptionContainerDiv p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.descriptionContainerDiv a {
+  margin-left: 5px;
+}
+.userDataContainer img {
+  width: 35px;
+}
+.userDataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 435px) {
+  .descriptionContainerDiv {
+    display: none;
+  }
+}
+.wrapperUserLogo {
+  display: flex;
+  flex-direction: column-reverse;
+  button {
+    background: inherit;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrapperUserLogo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    button {
+      width: 100px;
+    }
+  }
+}

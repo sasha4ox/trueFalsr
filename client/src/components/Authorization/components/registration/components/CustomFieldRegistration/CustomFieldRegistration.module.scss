@@ -1,0 +1,50 @@
+.inputsError {
+  width: 100%;
+  margin-top: 4px;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+  text-align: end;
+}
+
+.groupRegistration {
+  position: relative;
+  margin-bottom: 32px;
+  height: 40px;
+}
+
+.groupRegistration input {
+  font-size: 18px;
+  padding: 10px 10px 10px 15px;
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+.groupRegistration input:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+.groupRegistration label {
+  color: grey;
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top: 10px;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+/* active state */
+.groupRegistration input:focus ~ label,
+.groupRegistration input:valid ~ label {
+  top: -30px;
+  font-size: 18px;
+  color: #fff;
+}

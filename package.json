@@ -1,0 +1,24 @@
+{
+  "name": "true-falsr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "client:install": "yarn --cwd client",
+    "client:build": "yarn run build --cwd client"
+  },
+  "author": "Lysytsia Aleksandr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "config": "^3.2.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "cross-env": "^6.0.3",
+    "nodemon": "^2.0.2"
+  }
+}

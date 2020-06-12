@@ -1,0 +1,51 @@
+.inputsError {
+  width: 100%;
+  margin-top: 4px;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+  text-align: end;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 37px;
+  height: 40px;
+}
+
+.group input {
+  font-size: 18px;
+  padding: 10px 10px 10px 15px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+.group input:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+.group label {
+  color: grey;
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 10px;
+  left: 15px;
+  top: 10px;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+/* active state */
+.group input:focus ~ label,
+.group input:valid ~ label {
+  top: -30px;
+  font-size: 18px;
+  color: #fff;
+}
