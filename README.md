@@ -1,15 +1,22 @@
 # Run front-end as development
 git clone https://github.com/sasha4ox/trueFalsr.git
+
 cd client
+
 yarn
+
 yarn start
+
 
 # FOR PRODUCTION
 
 ## First step
 sudo npm install -g pm2
+
 git clone https://github.com/sasha4ox/trueFalsr.git
+
 cd trueFalsr
+
 ##  Second step
 
 Change apiUrl on a folder client/src/client-config.js 
