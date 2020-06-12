@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app.js",
+    "start": "cross-env NODE_ENV=production node index.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
     "client:install": "yarn --cwd client",
-    "client:build": "yarn run build --cwd client"
+    "client:build": "yarn --cwd client build"
   },
   "author": "Lysytsia Aleksandr",
   "license": "ISC",
